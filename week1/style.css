@@ -159,8 +159,8 @@ h2 {
     font-size: 1.8em;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: #4d1979;
-    border-bottom: 2px solid #e0e0e0;
+    color: #8e3b8b;
+    border-bottom: 2px solid #ad489e;
     padding-bottom: 1 rem;
 } 
 
@@ -212,13 +212,13 @@ main {
 /* Improve link styling */
 
 a {
-    color: #4d1979;
+    color: #d298df;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #6b2c91;
+    color: #945e8e;
     text-decoration: underline;
 }
 
