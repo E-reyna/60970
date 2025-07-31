@@ -1,7 +1,7 @@
 /* Header with background image for the title */
 .header {
   width: 100%;
-  background-image: url('../images/group.jpg');
+  background-image: url('../images/women.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
