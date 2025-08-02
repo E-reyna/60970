@@ -7,18 +7,21 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-
-<!-- The content below in the body tag is the visible content on the page -->
-
 <body>
-
-    <nav> 
-      <ul>
-      <li><a href="index.html"> Home</a></li>  
-      <li><a href="about.html" > About</a></li>  
-      <li><a href="crap-analysis.html"> CRAP Analysis</a></li>
-      <li><a href="contact.html">Contact Me </a></li>
-    </ul>
+    <nav class="main-nav">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="about.html">About</a></li>  
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
     </nav>
 
     <!-- Banner container - holds all banner content -->
@@ -28,10 +31,10 @@
     <div class="banner-text">
 
         <!-- Main heading - person's name, largest text -->
-        <h1 class="banner-name">Evelyn Reyna </h1>
+        <h1 class="banner-name"> Invisible Women: Data Bias in a World Designed for Men by Caroline Criado Perez  </h1>
 
         <!-- Subtitle - role/title, smaller italicized text -->
-        <h2 class="banner-title">College Adviser <br> Web Developer</h2>
+        <h2 class="banner-title">Book Review <br> By Evelyn Reyna </h2>
     
       </div>
 </div>
@@ -40,39 +43,54 @@
 
 
     <main>
-    <h1> Vogue Magazine</h1>
+    <h1> Significance Of The Book</h1>
 
-    <p>Vogue magazine is one of the most well-known fashion magazines globally. Its website is a representation of a clean, well-structured website with different components that help the reader be attracted to learn more about the fashion industry.
+    <p> The significance of this book is that it brings attention to how gender bias impacts the lives of women, including in the workplace, healthcare, safety, and public places. Criado Perez provides different examples globally to show that women are still being left at a disadvantage due to the lack of gender-specific data. The book also discusses how society has created an environment that fails to help women, which keeps them from having access to essential resources like all human beings. Invisible Women is a book that can help us learn more about what changes in policies need to be made to help decrease gender bias, especially in the workplace and healthcare, and to offer a safe space for women.
     </p>
   
-<p>As mentioned, Vogue is a live representation of what fashion stands for. The website has a clean look, which helps the visibility of the images to showcase the latest fashion trends. We can see on the website how it maintains a clean image, making it easy to navigate to the different tags that the audience is interested in. </p>
 
-<a href="https://www.vogue.com">Vogue Magazine</a>
+<p> Failing to recognize the disadvantages of how women are being affected is just another way of not helping women fight against this issue. Women, the group of individuals who, despite all their hard work and accomplishments, are still left in the shadows. Invisible Women: Data Bias in a World Designed for Men by Caroline Criado Perez provides an eye-opening analysis of how systemic gender bias disadvantages women across various aspects of our society. Despite their hard work and accomplishments, women are often overlooked, their needs are still being ignored, and their contributions are left in the shadows. Criado Perez’s work highlights the significance of gender data gaps and calls for systemic change to ensure women receive the same opportunities and resources as men. </p>
 
-<h2> CRAP Analysis</h2>
+<a href="https://carolinecriadoperez.com/book/invisible-women/">Invisible Women Book</a>
 
-<p>In the main page, the website includes no paragraph words, which helps the audience navigate the page easily. The main page focuses on showing images with short descriptions of the events that the images are displaying. This, alongside a link, helps the reader have the freedom to choose which topic they want to read more about. </p>
+<h2> About the Author </h2>
 
-<img class= "analysis-image" src="images/main page.png" width="100%" alt=" Vougue Magazine Main Page">
+<p> Criado Perez supports her arguments with statistical evidence, demonstrating how women are often forced to fit into a world designed for men. She highlights that gender bias is not limited to one country but is an issue seen in different parts of our world. It is impacted by historical and cultural perceptions of women. The author’s emphasis on the gender data gap is important because it shows that the lack of research and data on women leads to policies and structures that fail to consider their needs. “The result of this deeply male-dominated culture is that the male experience, the male perspective, has come to be seen as universal…” (Criado Perez 15). Criado Perez argues through her extensive data collection that women are forced to fit into a world that is designed for men.</p>
 
-<div class=" image-caption"> The main page of Vougue Magazine </div>
+<img class= "analysis-image" src= "../images/perez.jpg" width="100%" alt=" Caroline Criado Perez".>
 
-<ul>
+<div class=" image-caption"> Author Coroline Criado Perez  </div>
 
-<li> <strong> C-Contrast:</strong> The use of a white and black theme enhances the overall visibility of the page. Additionally, the inclusion of relevant images effectively highlights the content and makes it more engaging.</li>
-<li><strong>R-Repetition:</strong> There is consistency in the fonts and sizes across the page. The website also includes navigation menus, buttons, and different sections that help the page feel cohesive.</li>
-<li><strong>A- Alignment:</strong> The website has a clean layout. The text, images, and columns are well aligned; it shows a professional and elegant look. </li>
-<li><strong>P-Proximity:</strong> The content they have is relevant to today's time. They provide images with descriptions, which allow the audience to get a preview of the content they want to read more about. Something that is not appealing is that the website has a lot of ad pop-ups; this can interrupt the flow by covering the website's content, especially on a mobile device. </li>
 
-</ul>
+    <!-- Header now uses a background image for the title -->
+    <header class="header">Exploring The Topics</header>
+    <div class="hero"> 
+      <div class="topic-image">
+        <h3>Historical Bias</h3>
+        <img src="../images/history.jpg" alt="book for invisible women">
+      </div>
+    </div>
+    <section class="cards-container">
+        <!-- Fixed image sizing: added quotes to width attribute for valid HTML. For best results, use CSS as shown in the comment below. -->
+        <div class="card">Gender Bias <img src="../images/gender.jpg" alt="book for invisible women" width="100%"> </div>
+        <!--
+        Recommended CSS for style.css:
+        .card img {
+          width: 100%;
+          height: auto;
+          display: block;
+          object-fit: cover;
+        }
+        -->
+        <div class="card">Workplace Discrimination <img src="../images/discrimination.jpg" alt="book for invisible women" width="100%">  </div>
+        <div class="card">Maternal Care <img src="../images/maternal.jpg" alt="book for invisible women" width="100%">  </div>
+    </section>
 
-<img src="images/tabs.png" width="100%" alt=" Vougue Magazine" >
 
-<p>Vogue's website has a stylish, functional, and user-friendly design. It allows the audience to be able to learn more about the fashion industry. The stylish design is just a reinforcement of what the brand stands for and how they want others to see them. It also includes a variety of articles that serve to keep the audience engaged. Overall, the site is easy to navigate, helping its readers have a good experience.  
-As well as showing the different events that we are currently. </p>
 
   </main>
 
   <footer><p>Contact me: <a href="mailto: E.reynaaguilar@tcu.edu"> E.reynaaguilar@tcu.edu</a></p></footer>
 </body>
 </html>
+
