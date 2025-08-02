@@ -1,2 +1,0 @@
-# vogue
-Web Authoring 
